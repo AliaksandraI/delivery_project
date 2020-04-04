@@ -2,6 +2,10 @@
     border: 3px solid red;
 }
 
+
+
+/* CSS for header*/
+
 .header {
     max-width: 1440px;
     min-height: 67px;
@@ -39,7 +43,8 @@
 
 
 ul {
-    list-style-position: inside;   
+    list-style-position: inside;  
+    list-style-type: none; 
 }
 
 
@@ -60,7 +65,7 @@ ul {
     list-style-position: inside;
 }
 
-.header__menu-link {
+.link {
     text-decoration: none;
     color: #000000;
 }
@@ -73,3 +78,73 @@ ul {
 .link:active {
     text-decoration: underline;
 }
+
+/* CSS for header*/
+
+
+
+/* CSS for lead*/
+.lead {
+    max-width: 1440px;
+    min-height: 765px;
+    background-color: #F0F5FB;
+    padding-top: 105px;
+}
+
+
+.title {
+    max-width: 949px;
+    font-family: 'Montserrat','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.subtitle {
+    max-width: 570px;
+    font-family: 'Montserrat','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    margin:18px auto 0;
+}
+
+
+/* CSS for lead*/
+
+
+
+/* CSS for menu*/
+
+.menu {
+    max-width: 1440px;
+    min-height: 1433px;
+    padding-top: 140px;
+    background-image: url(./images/icons\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu__dishes {
+    max-width: 1161px;
+    min-height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__grid {
+    max-width: 1160px;
+    min-height: 851px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 21px;
+}
+/* CSS for menu*/
